@@ -1,0 +1,46 @@
+
+
+.text-green {
+    color: #32cd32; 
+  }
+  
+  .text-light {
+    color: #f8f9fa; 
+  }
+  
+  .carousel-caption {
+    text-align: left; 
+    bottom: 25%; 
+  }
+  
+  .carousel-caption h5 {
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+  
+  .custom-col {
+    flex: 1.5; 
+    max-width: 12%; 
+    
+  }
+
+  .form-container {
+    background-color: #f1e6e6; 
+    color: rgb(54, 54, 54); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  .form-container .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+
+  .form-container .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
