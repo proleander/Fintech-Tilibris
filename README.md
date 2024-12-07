@@ -10,7 +10,7 @@ Tilibris é uma aplicação web desenvolvida para ajudar os usuários a gerencia
 ## Tecnologias Utilizadas
 
 ### **Frontend**
-- **HTML/CSS/JavaScript**: Estrutura e estilização das páginas.
+- **HTML/CSS/Boostrap**: Estrutura e estilização das páginas.
 
 ---
 
