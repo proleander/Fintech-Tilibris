@@ -1,4 +1,28 @@
 
+/* Garante que o layout cubra toda a altura */
+body {
+  background-color: #020202; /* Cor de fundo cinza claro */
+  color: #000; /* Cor do texto */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Faz o conteúdo ocupar o espaço restante */
+main {
+  flex: 1;
+}
+
+/* Estiliza o rodapé */
+footer {
+  flex-shrink: 0;
+  background-color: black !important;
+  color: white;
+}
 
 .text-green {
     color: #32cd32; 
@@ -43,4 +67,4 @@
   .form-container .btn-success:hover {
     background-color: #218838;
     border-color: #1e7e34;
-  }
+  }}
