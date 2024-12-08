@@ -1,5 +1,5 @@
 
-/* Garante que o layout cubra toda a altura */
+
 body {
   background-color: #020202; /* Cor de fundo cinza claro */
   color: #000; /* Cor do texto */
@@ -12,12 +12,12 @@ html, body {
   flex-direction: column;
 }
 
-/* Faz o conteúdo ocupar o espaço restante */
+
 main {
   flex: 1;
 }
 
-/* Estiliza o rodapé */
+
 footer {
   flex-shrink: 0;
   background-color: black !important;
@@ -68,3 +68,5 @@ footer {
     background-color: #218838;
     border-color: #1e7e34;
   }}
+
+  
