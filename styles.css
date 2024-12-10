@@ -69,4 +69,21 @@ footer {
     border-color: #1e7e34;
   }}
 
+  .carousel-caption {
+    bottom: 20px; /* Ajusta a posição do texto */
+  }
+  
+  h5, p {
+    font-size: calc(1rem + 1vw); /* Tamanhos responsivos baseados na largura da tela */
+  }
+  
+  @media (max-width: 400px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem; /* Texto menor em telas menores */
+    }
+  
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  }
   
