@@ -86,4 +86,14 @@ footer {
       font-size: 0.9rem;
     }
   }
+  @media (max-width: 992px) { /* Para telas menores ou iguais ao tamanho 'md' */
+    body {
+      background-image: url('./imagens/back.jpg'); /* Substitua pelo caminho da imagem */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  
+  
   
